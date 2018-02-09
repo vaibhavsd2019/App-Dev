@@ -1,10 +1,10 @@
-package j;
+package Format;
 
 
 import java.util.*;
 import java.text.*;
 
-public class DateDemo {
+public class Format {
 
    public static void main(String args[]) {
       Date current = new Date( );
