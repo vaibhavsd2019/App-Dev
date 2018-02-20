@@ -360,7 +360,10 @@ public class ErrorTermRecognizer {
 		case 3:
 			//Not a final state and in order to
 			// move forward, the next character must be a digit
-			
+						//Not a final state and in order to
+			// move forward, the next character must be a digit
+			errorTermErrorMessage = "This should be no more digit after this digit.\n";
+			return errorTermErrorMessage + displayInput( input, currentCharNdx);
 			
 		case 6:
 			// Not a final state and in order to
