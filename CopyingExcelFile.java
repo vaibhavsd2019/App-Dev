@@ -1,3 +1,7 @@
+// Copying out an Excel File
+//@author Vaibhav Mehandiratta
+// version 1.0  22/03/2018
+
 package CopyingExcelFile;
 
 import java.io.File;
@@ -12,7 +16,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
 public class CopyingExcelFile {
-
+//  Main  Method of the Program
 	public static void main(String[] args) throws IOException 
 	{
 		// Step 1 : Locate path and file to be inputed as real file 
