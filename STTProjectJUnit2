@@ -1,0 +1,19 @@
+//@author Vaibhav
+
+package bankingtest;
+
+import org.junit.Test;
+
+import banking.Message;
+
+public class MessageTest {
+int vab = 0;
+@Test
+	public void test() {
+		asssertequals(Message.WITHDRAWAL, vab);
+	}
+private void asssertequals(int withdrawal, int vab2) {
+	// TODO Auto-generated method stub
+	
+}
+}
