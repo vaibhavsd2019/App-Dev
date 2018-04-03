@@ -1,0 +1,34 @@
+//@author vaibhav
+
+package atmtest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import atm.Session;
+
+public class SessionTest {
+
+	@Test
+	public void test1() {
+		int readCard=1;
+		assertEquals(readCard,Session.READING_CARD_STATE);
+	}
+
+	@Test 
+	public void test2() {
+		int pinRead=1;
+		assertEquals(pinRead, Session.READING_CARD_STATE);
+	}
+	@Test 
+	  public void test3() {
+		int trans = 3;
+				assertEquals(trans, Session.CHOOSING_TRANSACTION_STATE);
+	}
+	@Test
+	public void test4() {
+		int ptrans = 4;
+		assertEquals(ptrans, Session.PERFORMING_TRANSACTION_STATE);
+	}
+}
